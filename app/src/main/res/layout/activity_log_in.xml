@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF4500"
+            android:id="@+id/rlin1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="SignUp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlin1"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/mainlogo"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/logo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/slogan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/logo"
+                android:textColor="@color/black"
+                android:text="We need your mobile number to verify"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/numet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/slogan">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Mobile number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="NEXT"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnenxt"
+                android:background="#2F4F4F"
+                android:textColor="@color/white"
+                android:layout_below="@+id/numet"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="need help?"
+                android:textColor="#0000EE"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btnenxt"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

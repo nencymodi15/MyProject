@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Service Support</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_punchin">Punch In/Out</string>
+    <string name="menu_Attendance">Attendance</string>
+    <string name="menu_c_resolve">Complaint Resolve</string>
+    <string name="menu_c_Booking">Complaint Booking</string>
+    <string name="menu_Eng">ENG Installation</string>
+    <string name="menu_installation">Installation</string>
+    <string name="menu_Expense">Expense</string>
+    <string name="menu_PM">PM Report</string>
+    <string name="menu_m_acceptance">Material Acceptance</string>
+    <string name="menu_m_management">Material Management</string>
+    <string name="menu_T_request">Trip Request</string>
+    <string name="menu_ar_Leave">Approve/Reject Leave</string>
+    <string name="menu_user">User</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_help">Help</string>
+</resources>

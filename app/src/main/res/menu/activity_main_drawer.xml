@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_PunchIn"
+            android:icon="@drawable/ic_fingerprint"
+            android:title="@string/menu_punchin" />
+        <item
+            android:id="@+id/nav_Attendance"
+            android:icon="@drawable/ic_attendance1_background"
+            android:title="@string/menu_Attendance" />
+        <item
+            android:id="@+id/nav_ComplaintResolve"
+            android:icon="@drawable/ic_complaint_re_background"
+            android:title="@string/menu_c_resolve" />
+        <item
+            android:id="@+id/nav_ComplaintBooking"
+            android:icon="@drawable/ic_complaint_booking_background"
+            android:title="@string/menu_c_Booking" />
+        <item
+            android:id="@+id/nav_EngInstallation"
+            android:icon="@drawable/ic_engineering"
+            android:title="@string/menu_Eng" />
+        <item
+            android:id="@+id/nav_installation"
+            android:icon="@drawable/ic_engineering"
+            android:title="@string/menu_installation" />
+        <item
+            android:id="@+id/nav_Expense"
+            android:icon="@drawable/ic_expense_background"
+            android:title="@string/menu_Expense" />
+        <item
+            android:id="@+id/nav_Pm_report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/menu_PM"/>
+        <item
+            android:id="@+id/nav_Mat_Acceptance"
+            android:icon="@drawable/ic_material"
+            android:title="@string/menu_m_acceptance"/>
+        <item
+            android:id="@+id/nav_mat_mangement"
+            android:icon="@drawable/ic_transfer"
+            android:title="@string/menu_m_management"/>
+        <item
+            android:id="@+id/nav_Trip_request"
+            android:icon="@drawable/ic_trip"
+            android:title="@string/menu_PM"/>
+        <item
+            android:id="@+id/nav_"
+            android:icon="@drawable/ic_trip"
+            android:title="@string/menu_PM"/>
+    </group>
+</menu>

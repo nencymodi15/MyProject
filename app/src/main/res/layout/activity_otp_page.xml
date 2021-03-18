@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpPage"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orl1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF4500"
+            android:id="@+id/orlin1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_arrow"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:textSize="20dp"
+                android:text="Verify Account" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orlin1"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/mainlogo"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ologo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/oslogan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/ologo"
+                android:text="We need to verify your mobile number. Please enter OTP"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/oslogan2"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/oslogan"
+                android:text=" recived on your mobile number"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ootp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/oslogan2"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter OTP"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="SIGN UP"
+                android:layout_marginTop="30dp"
+                android:id="@+id/obtnsignup"
+                android:background="#2F4F4F"
+                android:textColor="@color/white"
+                android:layout_below="@+id/ootp1"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
