@@ -1,13 +1,18 @@
 package com.example.servicesupport;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
+import com.example.servicesupport.ui.punchIn.PunchInViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.annotation.NonNull;
+import androidx.core.view.GravityCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -16,7 +21,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class Home extends AppCompatActivity {
+public class Home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -53,5 +58,49 @@ public class Home extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        int id=item.getItemId();
+        if(id==R.id.nav_home){
+
+
+        }else if(id==R.id.nav_PunchIn){
+
+
+        }else if(id==R.id.nav_Attendance){
+
+        }else if(id==R.id.nav_ComplaintResolve){
+
+        }else if(id==R.id.nav_ComplaintBooking){
+
+        }else if(id==R.id.nav_EngInstallation){
+
+        }else if(id==R.id.nav_installation){
+
+        }else if(id==R.id.nav_Expense){
+
+        }else if(id==R.id.nav_Pm_report){
+
+        }else if(id==R.id.nav_Mat_Acceptance){
+
+        }else if(id==R.id.nav_mat_mangement){
+
+        }else if(id==R.id.nav_Trip_request){
+
+        }else if(id==R.id.nav_arleave){
+
+        }else if(id==R.id.nav_user){
+
+        }else if(id==R.id.nav_notification){
+
+        }else if(id==R.id.nav_help){
+
+        }
+        DrawerLayout drawer=(DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 }
