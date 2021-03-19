@@ -14,15 +14,15 @@
             android:title="@string/menu_punchin" />
         <item
             android:id="@+id/nav_Attendance"
-            android:icon="@drawable/ic_attendance1_background"
+            android:icon="@drawable/ic_registeratt"
             android:title="@string/menu_Attendance" />
         <item
             android:id="@+id/nav_ComplaintResolve"
-            android:icon="@drawable/ic_complaint_re_background"
+            android:icon="@drawable/ic_compresolve"
             android:title="@string/menu_c_resolve" />
         <item
             android:id="@+id/nav_ComplaintBooking"
-            android:icon="@drawable/ic_complaint_booking_background"
+            android:icon="@drawable/ic_bookingcomplaint"
             android:title="@string/menu_c_Booking" />
         <item
             android:id="@+id/nav_EngInstallation"
@@ -34,7 +34,7 @@
             android:title="@string/menu_installation" />
         <item
             android:id="@+id/nav_Expense"
-            android:icon="@drawable/ic_expense_background"
+            android:icon="@drawable/ic_exrequest"
             android:title="@string/menu_Expense" />
         <item
             android:id="@+id/nav_Pm_report"
@@ -53,8 +53,20 @@
             android:icon="@drawable/ic_trip"
             android:title="@string/menu_PM"/>
         <item
-            android:id="@+id/nav_"
-            android:icon="@drawable/ic_trip"
+            android:id="@+id/nav_arleave"
+            android:icon="@drawable/ic_leavear"
             android:title="@string/menu_PM"/>
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_user"/>
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications_24"
+            android:title="@string/menu_notification" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_baseline_help"
+            android:title="@string/menu_help"/>
     </group>
 </menu>
