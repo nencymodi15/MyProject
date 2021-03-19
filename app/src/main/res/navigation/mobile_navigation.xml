@@ -15,6 +15,4 @@
         android:name="com.example.servicesupport.ui.comresolve.ComoresolveFragment"
         android:label="@string/menu_c_resolve"
         tools:layout="@layout/comoresolve_fragment" />
-
-
 </navigation>
