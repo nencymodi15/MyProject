@@ -5,9 +5,78 @@
     android:layout_height="match_parent"
     tools:context=".ui.punchIn.punchIn">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pi1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#FF4500"
+                android:id="@+id/pi2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Punch In/Out"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pi2"
+                android:id="@+id/pi3"
+                android:background="@color/white">
+                <androidx.appcompat.widget.AppCompatToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:textOff="This Month"
+                    android:textOn="Prev Month">
+                </androidx.appcompat.widget.AppCompatToggleButton>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="In"
+                   android:layout_marginTop="150dp"
+                   android:layout_centerHorizontal="true"
+                   android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Out"
+                    android:layout_marginTop="150dp"
+                    android:layout_alignParentRight="true"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:layout_marginTop="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="20dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/button"
+                    android:layout_marginTop="550dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
 
 </FrameLayout>
