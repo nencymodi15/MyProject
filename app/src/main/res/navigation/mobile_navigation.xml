@@ -15,12 +15,4 @@
         android:name="com.example.servicesupport.ui.comresolve.ComoresolveFragment"
         android:label="@string/menu_c_resolve"
         tools:layout="@layout/comoresolve_fragment" />
-
-    <fragment
-        android:id="@+id/nav_PunchIn"
-        android:name="com.example.servicesupport.ui.punchIn.punchIn"
-        android:label="@string/menu_punchin"
-        tools:layout="@layout/punch_in_fragment" />
-
-
 </navigation>
