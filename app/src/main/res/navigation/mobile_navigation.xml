@@ -15,4 +15,14 @@
         android:name="com.example.servicesupport.ui.comresolve.ComoresolveFragment"
         android:label="@string/menu_c_resolve"
         tools:layout="@layout/comoresolve_fragment" />
+    <fragment
+        android:id="@+id/nav_Expense"
+        android:name="com.example.servicesupport.ui.Expense.Expense_Fragment"
+        android:label="@string/menu_Expense"
+        tools:layout="@layout/expense__fragment" />
+    <fragment
+        android:id="@+id/nav_ComplaintBooking"
+        android:name="com.example.servicesupport.ui.Complaint_Booking.Complaint_Booking_Fragment"
+        android:label="@string/menu_c_Booking"
+        tools:layout="@layout/complaint__booking__fragment" />
 </navigation>

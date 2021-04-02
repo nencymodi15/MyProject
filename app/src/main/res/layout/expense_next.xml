@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:background="#FF4500"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            android:textSize="40dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="#c58c85 "
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grand Total:"
+                android:textSize="25dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+              <Button
+                  android:layout_width="410dp"
+                  android:layout_height="60dp"
+                  android:fadingEdge="vertical"
+                  android:text="TRAVEL"
+                  android:textSize="30dp"
+                  android:background="#FF4500"/>
+
+               <Button
+                  android:layout_width="410dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_height="60dp"
+                  android:fadingEdge="vertical"
+                  android:text="BOARDING"
+                  android:textSize="30dp"
+                  android:background="#FF4500"/>
+
+                <Button
+                    android:layout_width="410dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="60dp"
+                    android:fadingEdge="vertical"
+                    android:text="D.A"
+                    android:textSize="30dp"
+                    android:background="#FF4500"/>
+
+                <Button
+                    android:layout_width="410dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="60dp"
+                    android:fadingEdge="vertical"
+                    android:text="OTHER"
+                    android:textSize="30dp"
+                    android:background="#FF4500"/>
+
+                <Button
+                    android:layout_width="410dp"
+                    android:layout_marginTop="257dp"
+                    android:layout_height="60dp"
+                    android:fadingEdge="vertical"
+                    android:text="SAVE"
+                    android:textSize="30dp"
+                    android:background="#FF4500"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
