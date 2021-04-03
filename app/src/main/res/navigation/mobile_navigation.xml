@@ -25,4 +25,10 @@
         android:name="com.example.servicesupport.ui.Complaint_Booking.Complaint_Booking_Fragment"
         android:label="@string/menu_c_Booking"
         tools:layout="@layout/complaint__booking__fragment" />
+    <fragment
+        android:id="@+id/nav_Trip_request"
+        android:name="com.example.servicesupport.ui.triprequest.TriprequestFragment"
+        android:label="@string/menu_c_resolve"
+        tools:layout="@layout/triprequest_fragment" />
+
 </navigation>

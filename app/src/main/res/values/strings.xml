@@ -45,4 +45,14 @@
         <item>Road</item>
         <item>Air</item>
     </string-array>
+    <string-array name="ApproveAuthority">
+        <item>BI</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="Reigon">
+        <item>East</item>
+        <item>West</item>
+        <item>South</item>
+        <item>North</item>
+    </string-array>
 </resources>

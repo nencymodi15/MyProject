@@ -8,6 +8,7 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:id="@+id/addbutton"
         android:layout_marginLeft="360dp"
         android:layout_alignParentBottom="true"
         android:src="@drawable/ic_add"

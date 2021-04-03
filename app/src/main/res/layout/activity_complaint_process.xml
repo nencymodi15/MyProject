@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:hint="Machine"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/orange"
             android:background="@drawable/edit_text_border"/>
         <EditText
             android:layout_marginTop="10dp"
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:hint="Serial No"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/orange"
             android:background="@drawable/edit_text_border"/>
         <Spinner
             android:layout_marginTop="10dp"
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:hint="Remarks"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/orange"
             android:background="@drawable/edit_text_border"/>
         <EditText
             android:layout_marginTop="10dp"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:hint="Email"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/orange"
             android:background="@drawable/edit_text_border"/>
         <Spinner
             android:layout_marginTop="10dp"
@@ -60,13 +60,14 @@
                     android:layout_height="wrap_content"
                     android:textSize="25sp"
                     android:hint="Amount"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="@color/orange"
                     android:background="@drawable/edit_text_border"
                     android:layout_column="1"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Recived"
+                    android:textColor="@color/orange"
                     android:textSize="25sp"
                     android:layout_column="4"/>
             </TableRow>
@@ -77,6 +78,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="25sp"
+                    android:textColor="@color/orange"
                     android:text="Physical Damage"
                     android:layout_column="1"/>
                 <RadioGroup
@@ -101,6 +103,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="25sp"
                     android:text="Resolve at"
+                    android:textColor="@color/orange"
                     android:layout_column="1"/>
                 <RadioGroup
                     android:layout_width="wrap_content"
@@ -124,8 +127,8 @@
             />
         <Button
             android:layout_gravity="center"
-            android:background="#FF4500"
-            android:layout_width="wrap_content"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SUBMIT"/>
     </LinearLayout>

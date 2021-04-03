@@ -3,6 +3,7 @@ package com.example.servicesupport.ui.Expense;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -30,6 +31,9 @@ public class Expense_Fragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+        Context cnt = container.getContext();
+        myDialog=new Dialog(cnt);
+
         return inflater.inflate(R.layout.expense__fragment, container, false);
     }
 
@@ -37,7 +41,7 @@ public class Expense_Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this).get(ExpenseViewModel.class);
-        //myDialog=new Dialog(Expense_Fragment.this);
+
 
     }
     public void ShowPopUp(View v){
