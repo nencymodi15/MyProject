@@ -31,9 +31,8 @@ public class Expense_Fragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        Context cnt = container.getContext();
-        myDialog=new Dialog(cnt);
-
+        Context myContext=container.getContext();
+        myDialog=new Dialog(myContext);
         return inflater.inflate(R.layout.expense__fragment, container, false);
     }
 
